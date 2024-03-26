@@ -12,7 +12,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 const LoginForm = () => {
-  const CLIENT_ID = "0b414b82f820417e994c69a35b2f35da";
+  const CLIENT_ID = REACT_APP_CLIENT_ID;
   const REDIRECT_URL = "http://localhost:3000/home";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
